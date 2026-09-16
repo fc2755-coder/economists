@@ -30,7 +30,9 @@ header.top .wrap{padding-bottom:0}
 .lead{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--accent);
   border-radius:10px;padding:20px 24px;margin-bottom:22px}
 .lead-t{font-size:12px;font-weight:800;color:var(--accent);letter-spacing:1.2px;margin-bottom:8px}
-.lead p{margin:0;font-size:15.5px;line-height:1.9;color:var(--ink2);text-align:justify}
+.lead p{margin:0 0 12px;font-size:15.5px;line-height:1.9;color:var(--ink2);text-align:justify}
+.lead p:first-of-type{font-weight:700;color:var(--ink);font-size:16.5px}
+.lead p:last-child{margin-bottom:0;font-size:13.5px;color:var(--ink3);font-weight:400}
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
 .chip{border:1px solid var(--line);background:var(--paper);color:var(--ink2);padding:7px 15px;
   border-radius:999px;font-size:13.5px;cursor:pointer;font-family:inherit;transition:.15s}
