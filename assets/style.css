@@ -27,6 +27,10 @@ header.top .wrap{padding-bottom:0}
 .navi-item:hover{background:#faf9f7;border-left-color:var(--accent)}
 .ni-sec{display:block;font-size:11px;color:var(--accent);font-weight:700;margin-bottom:2px}
 .ni-t{display:block;font-size:13px;line-height:1.5}
+.lead{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--accent);
+  border-radius:10px;padding:20px 24px;margin-bottom:22px}
+.lead-t{font-size:12px;font-weight:800;color:var(--accent);letter-spacing:1.2px;margin-bottom:8px}
+.lead p{margin:0;font-size:15.5px;line-height:1.9;color:var(--ink2);text-align:justify}
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
 .chip{border:1px solid var(--line);background:var(--paper);color:var(--ink2);padding:7px 15px;
   border-radius:999px;font-size:13.5px;cursor:pointer;font-family:inherit;transition:.15s}
@@ -43,6 +47,13 @@ header.top .wrap{padding-bottom:0}
 .stand{margin:0;font-size:16px;color:var(--ink2);border-left:3px solid var(--accent);padding-left:12px;line-height:1.7}
 .fig{margin:0 0 22px}
 .fig img{width:100%;border-radius:8px;display:block}
+.fig figcaption{margin-top:8px;font-size:12px;color:var(--ink3);font-style:normal}
+.fig-badge{font-size:11px;color:var(--accent);border:1px solid #f0c9c6;background:var(--accent-soft);
+  padding:2px 8px;border-radius:4px;font-weight:700}
+.fig-inline{margin:22px 0 26px;padding:16px 16px 12px;background:#faf9f7;border:1px solid var(--line);border-radius:10px}
+.fig-inline img{width:100%;border-radius:6px;display:block;background:#fff}
+.fig-inline figcaption{margin-top:10px;font-size:13px;line-height:1.7;color:var(--ink3);
+  border-left:2px solid var(--line);padding-left:10px}
 .kps{background:var(--accent-soft);border:1px solid #f4d9d7;border-radius:9px;padding:16px 20px;margin-bottom:24px}
 .kps-t{font-size:12px;font-weight:800;color:var(--accent);letter-spacing:1.2px;margin-bottom:8px}
 .kps ul{margin:0;padding-left:20px}
